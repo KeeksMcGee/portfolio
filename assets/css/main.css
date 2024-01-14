@@ -742,7 +742,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2rem 0;
+		margin: 1em;
 		padding-left: 1em;
 	}
 
@@ -1112,6 +1112,10 @@ input, select, textarea {
 		line-height: calc(2.75rem - 2px);
 	}
 
+	article#work > button.seeSite {
+		align-content: center;
+	}
+
 /* BG */
 
 	#bg {
@@ -1348,9 +1352,11 @@ input, select, textarea {
 			display: -webkit-flex;
 			display: -ms-flex;
 			display: flex;
+			flex-direction: row;
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
+			padding-right: 0;
 			border: solid 1px #ffffff;
 			border-radius: 4px;
 		}
