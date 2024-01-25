@@ -1112,18 +1112,9 @@ input, select, textarea {
 		line-height: calc(2.75rem - 2px);
 	}
 
-#work a {
-	display: block;
-	margin: 0 auto;
-	width: 25%;
-}
-
-#work h3 {
-	display: block;
-		text-align: center;
-		width: 100%;
-}
-
+	article#work > button.seeSite {
+		align-content: center;
+	}
 
 /* BG */
 
