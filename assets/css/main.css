@@ -743,11 +743,10 @@ input, select, textarea {
 	ul {
 		list-style: disc;
 		margin: 1em;
-		padding-left: 1em;
 	}
 
 		ul li {
-			padding-left: 0.5em;
+			margin: 0 auto;
 		}
 
 		ul.alt {
@@ -793,7 +792,6 @@ input, select, textarea {
 	}
 
 		ul.actions li {
-			padding: 0 0 0 1rem;
 			vertical-align: middle;
 		}
 
@@ -1366,15 +1364,13 @@ input, select, textarea {
 			flex-direction: row;
 			margin-bottom: 0;
 			list-style: none;
-			padding-left: 0;
-			padding-right: 0;
+			margin: 0 auto;
 			border: solid 2px #ffffff;
 			border-radius: 4px;
 			background-color: rgba(0, 0, 0, 0.678);
 		}
 
 			#header li {
-				padding-left: 0;
 				border-left: solid 1px #ffffff;
 			}
 
@@ -1387,7 +1383,7 @@ input, select, textarea {
 					min-width: 7.5rem;
 					height: 2.75rem;
 					line-height: 2.75rem;
-					padding: 0 1.25rem 0 1.45rem;
+					
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
